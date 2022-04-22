@@ -1,0 +1,30 @@
+.box-one img {
+  max-width: 100%;
+}
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0 4px;
+}
+.box-two {
+  font-size: 18px;
+  letter-spacing: 2px; 
+  margin: 50px;
+}
+.btn-block {
+  text-align: center;
+  letter-spacing: 10px;
+  margin: 30px 0;
+}
+@media all and (max-width: 920px) {
+  .wrapper {
+    flex-direction: column;
+  }
+  .box-two {
+    text-align: center;
+    margin: 5px;
+    padding: 0 5px;
+  }
+}

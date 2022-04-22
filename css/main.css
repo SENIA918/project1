@@ -1,0 +1,114 @@
+html {
+  font-family: 'Inter', sans-serif;
+  font-family: 'Lobster', cursive;
+  font-family: 'Lora', serif;
+  font-family: 'Playfair Display', serif;
+}
+header {
+  background-color: rgb(241, 238, 241);
+  padding: 30px 0;
+}
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  letter-spacing: 2px;
+  height: 60px;
+  font-weight: 400;
+}
+.content {
+  letter-spacing: 2px; 
+  font-size: 18px;
+  text-align: center;
+  margin: 0 50px;
+  line-height: 35px;
+}
+.content-heading {
+  letter-spacing: 4px; 
+  text-align: center;
+}
+h1,
+h3,
+h4,
+h5,
+.footer {
+  text-align: center;
+  letter-spacing: 10px;
+}
+.name {
+  letter-spacing: 20px; 
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+.nav-block {
+  display: flex;
+  justify-content: center;
+}
+.nav-block li {
+  margin-bottom: 20px; 
+}
+.nav-block li a {
+  letter-spacing: 2px; 
+  font-size: 18px;
+  margin: 0 30px;
+  color: black;
+}
+.card { 
+  margin-left: 80px;
+}
+.card-title,
+.card-text,
+.card-body { 
+  letter-spacing: 2px; 
+  font-size: 18px;
+  padding-bottom: 30px;
+  text-align: center;
+  margin: 50px 0;
+}
+.btn {
+  text-align: center;
+}
+.btn a {
+  border: solid black 1px;
+  padding: 15px 25px;
+  letter-spacing: 2px; 
+  font-size: 16px;
+  color: black;
+}
+.btn a:hover {
+  transition: 0.2s;
+  background-color: rgb(65, 61, 61);
+  color: white;
+  text-decoration: none;
+}
+.footer-conten h3 {
+  padding: 30px 0;
+}
+.footer-content {
+  letter-spacing: 2px; 
+  font-size: 14px;
+  text-align: center;
+}
+.footer {
+  background-color: rgb(241, 238, 241);
+  padding: 30px 0;
+}
+.footer-icon {
+  text-align: center;
+  padding: 15px;
+}
+svg {
+  margin: 0 4px;
+}
+@media all and (max-width: 920px) {
+  .nav {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .card-body {
+     margin: 0 auto;
+  }
+}
